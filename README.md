@@ -17,6 +17,7 @@ The system allocates available ambulances to incoming emergency calls across a r
 
 - **Road Graph**: 5 nodes (`N1` to `N5`) with bidirectional weighted travel times (minutes).
 - **Fleet**: Ambulances `A1` (starts at `N1`), `A2` (starts at `N4`), and `A3` (starts at `N2`).
+
 - **Severity Levels**:
   - `Critical` (Priority 3)
   - `Serious` (Priority 2)
@@ -31,3 +32,4 @@ python main.py
 ```
 
 Follow the terminal prompts to specify the number of emergencies, location node for each (`N1`–`N5`), and severity level (`1`–`3`).
+
